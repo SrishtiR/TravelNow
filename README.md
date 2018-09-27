@@ -1,2 +1,1 @@
-# csci5448
-TravelNow
+A rails based webapp to find travel buddies, discover places based on interest and plan trips. 

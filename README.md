@@ -1,1 +1,1 @@
-A rails based webapp to find travel buddies, discover places based on interest and plan trips. 
+A webapp to find travel buddies, discover places based on interest and plan trips. 

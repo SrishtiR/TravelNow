@@ -1,8 +1,13 @@
-package travelnow;
+package com.srishti.travelnow;
 
 import java.util.List;
 
-public class Traveler {
+/**
+ * 
+ * @author srishti
+ *
+ */
+public class Traveler extends User {
 	private int travelerID;
 	private boolean availableToGroup;
 	private TravelHistory history;
@@ -32,7 +37,7 @@ public class Traveler {
 		this.placeInterested = placeInterested;
 	}
 	public void updateProfile() {
-		
+		//to do
 	}
 	public List<String> findPeople(){
 		return null;	
@@ -41,7 +46,9 @@ public class Traveler {
 		return false;
 	}
 	public void markAvailable() {
-		
+		if(isAvailableToGroup() == false) {
+			setAvailableToGroup(true);			
+		}
 	}
 	
 }

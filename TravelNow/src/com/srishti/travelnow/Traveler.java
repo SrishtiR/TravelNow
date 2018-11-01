@@ -43,6 +43,7 @@ public class Traveler extends User {
 		return null;	
 	}
 	public boolean sendGroupUpRequest() {
+		//to do
 		return false;
 	}
 	public void markAvailable() {

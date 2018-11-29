@@ -1,0 +1,6 @@
+com.travelnow.controller
+com.travelnow.dao.impl
+com.travelnow.dao_
+com.travelnow.model
+com.travelnow.service
+com.travelnow.user_impl
